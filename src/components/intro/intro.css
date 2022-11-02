@@ -18,10 +18,12 @@
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
+    background: url("../../assets/ozioma1.jpg") no-repeat;
 }
 
 .about__me-image:hover {
-    transform: rotate(0);
+    transform: rotate(360deg);
+    cursor: pointer;
 }
 
 .about__cards {
