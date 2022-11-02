@@ -50,11 +50,11 @@ const Experience = () => {
                         </article>
                         <article className="experience__details">
                             <BsFillPatchCheckFill className="experience__details-icon" />
-                            <h4>Springboot</h4>
+                            <h4>Spring-boot</h4>
                         </article>
                         <article className="experience__details">
                             <BsFillPatchCheckFill className="experience__details-icon" />
-                            <h4>PostgreSQL</h4>
+                            <h4>PostgresSQL</h4>
                         </article>
                         <article className="experience__details">
                             <BsFillPatchCheckFill className="experience__details-icon" />

@@ -13,9 +13,10 @@
 }
 
 .experience__container > div:hover {
-    background: transparent;
+    background: rgba(14, 14, 14, 0.23) url("../../../public/favicon.ico") no-repeat top right;
+    background-size: cover;
+    cursor: pointer;
     border-color: var(--color-primary-variant);
-    cursor: default;
 }
 
 .experience__container > div h3 {
