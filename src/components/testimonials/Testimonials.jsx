@@ -55,12 +55,11 @@ const Testimonials = () => {
                             </a>
                         </div>
                         <h5 className='client__name'>{test.name}</h5>
+                        <p>{ test.role }</p>
                         <small className="client__review">{test.test}</small>
                     </SwiperSlide>
                 ))}
             </Swiper>
-
-
         </section>
     )
 }

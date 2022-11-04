@@ -3,6 +3,10 @@
     padding-bottom: 4rem;
 }
 
+.testimonials__container p{
+    font-size: .7rem;
+}
+
 .client__avatar {
     width: 4rem;
     aspect-ratio: 1/1;
