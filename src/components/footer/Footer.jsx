@@ -1,6 +1,6 @@
 import React from 'react';
 import { BsLinkedin } from 'react-icons/bs';
-import { FaGithub } from 'react-icons/fa';
+import {FaGithub, FaTwitter} from 'react-icons/fa';
 import { FaAngellist } from 'react-icons/fa'
 import './footer.css';
 
@@ -17,9 +17,9 @@ const Footer = () => {
                 <li><a href={"#contact"}>Contact</a></li>
             </ul>
             <div className={"footer__socials"}>
-                <a href={""} target={"_blank"} rel={"noreferrer"} ><BsLinkedin /></a>
-                <a href={""} rel={"noreferrer"} ><FaGithub /></a>
-                <a href={""} target={"_blank"} rel={"noreferrer"} ><FaAngellist /></a>
+                <a href={"https://www.linkedin.com/in/oziomaokoroafor/"} target={"_blank"} rel={"noreferrer"} ><BsLinkedin /></a>
+                <a href={"https://github.com/ozifirebrand"} rel={"noreferrer"} ><FaGithub /></a>
+                <a href={"https://twitter.com/ozifirebrand"} target={"_blank"} rel={"noreferrer"} ><FaTwitter /></a>
             </div>
             <div className={"footer__copyright"}>
                 <small>Built by zipDemon </small>
