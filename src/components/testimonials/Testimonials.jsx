@@ -77,4 +77,3 @@ const Testimonials = () => {
 }
 
 export default Testimonials
-Footer
