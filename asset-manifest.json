@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.fa7dfbeb.css",
+    "main.js": "/portfolio/static/js/main.e6934da0.js",
+    "static/js/787.d836d28e.chunk.js": "/portfolio/static/js/787.d836d28e.chunk.js",
+    "static/media/print.jpg": "/portfolio/static/media/print.d693bce11d406e5f87e7.jpg",
+    "static/media/shopping.jpg": "/portfolio/static/media/shopping.7a192bf25782a42ae003.jpg",
+    "static/media/igbo.jpg": "/portfolio/static/media/igbo.c96936de0262591f662d.jpg",
+    "static/media/favicon.ico": "/portfolio/static/media/favicon.aa6a56ed354db5611c8b.ico",
+    "static/media/ozioma1.jpg": "/portfolio/static/media/ozioma1.7df6cc7f5d2909c2f261.jpg",
+    "static/media/Ozioma_Okoroafor_Software_Engineer.pdf": "/portfolio/static/media/Ozioma_Okoroafor_Software_Engineer.a34c877280c4759aca7e.pdf",
+    "index.html": "/portfolio/index.html",
+    "main.fa7dfbeb.css.map": "/portfolio/static/css/main.fa7dfbeb.css.map",
+    "main.e6934da0.js.map": "/portfolio/static/js/main.e6934da0.js.map",
+    "787.d836d28e.chunk.js.map": "/portfolio/static/js/787.d836d28e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa7dfbeb.css",
+    "static/js/main.e6934da0.js"
+  ]
+}
