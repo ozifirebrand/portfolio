@@ -29,7 +29,9 @@ const Intro = () => {
                         </article>
                     </div>
                     <p>
-                        lorem
+                        Focused and quick-learning Software Engineer with 2 years of experience
+                        in computer science, programming, and micro-services for various projects and
+                        clients.
                     </p>
                     <a href={"#contact"} className={"btn btn-primary"}>Let's Talk</a>
                 </div>
