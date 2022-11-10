@@ -231,7 +231,6 @@ const Experience = () => {
                     </div>
                 </div>
 
-
                 <div className={"experience__ttd"}>
                     <h3>Test Driven Development</h3>
                     <div className={"experience__content"}>
