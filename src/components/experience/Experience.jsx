@@ -142,7 +142,6 @@ const Experience = () => {
                 </div>
 
                 <div className={"experience__git_version_control"}>
-                    {/*Database and SQL*/}
                     <h3>Git Version control</h3>
                     <div className={"experience__content"}>
                         <article className={"experience__details"}>
@@ -192,7 +191,7 @@ const Experience = () => {
                         </article>
                         <article className={"experience__details"}>
                             <BsFillPatchCheckFill className={"experience__details-icon"} />
-                            <h4>Databases </h4>
+                            <h4>Databases</h4>
                         </article>
                         <article className={"experience__details"}>
                             <BsFillPatchCheckFill className={"experience__details-icon"} />
