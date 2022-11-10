@@ -52,6 +52,8 @@ git@2.17.1 or higher
 
 ### `Start's development server`
 #### Clone this repository #git clone https://github.com/ozifirebrand/portfolio.git
+<!--    <title>Title</title>-->
+
 
 <span class="pl-c"><span class="pl-c">#</span> Go into the repository</span>
 $ <span class="pl-c1">cd</span> developerFolio
