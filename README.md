@@ -42,3 +42,10 @@ You'll need <a href="https://github.com/">Git</a> and <a href="https://nodejs.or
 - `node@v10.16.0 or higher`
 - `npm@6.9.0 or higher`
 - `git@2.17.1 or higher`
+
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="node@v10.16.0 or higher
+npm@6.9.0 or higher
+git@2.17.1 or higher"><pre class="notranslate"><code>node@v10.16.0 or higher
+npm@6.9.0 or higher
+git@2.17.1 or higher
+</code></pre></div>
