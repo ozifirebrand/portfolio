@@ -6,6 +6,7 @@ import './contact.css';
 const Contact = () => {
     const [state, handleSubmit] = useForm("meqdvvnz");
     if (state.succeeded) {
+        console.log("Message sent")
         return <p className={"success-message"}>
             I have received your message, thank you!
         </p>;
@@ -28,13 +29,13 @@ const Contact = () => {
                     </article>
                 </div>
                 <form onSubmit={ handleSubmit }>
-                    <input type={"text"} placeholder={"Your Full Name"} name={"user_name"}
+                    <input type={"text"} placeholder={"Your Full Name"} name={"Username"}
                            required/>
-                    <input type={"text"} placeholder={"Your Email"} name={"user_email"}
+                    <input type={"text"} placeholder={"Your Email"} name={"User email"}
                            required/>
                     <textarea placeholder={"Your message"} rows={"7"} name={"message"}
                               required/>
-                    <button type={"submit"} disabled={state.submitting}
+                    <button type={"submit"} disabled={ state.submitting }
                             className={"btn btn-primary"}>
                         Send Message
                     </button>
