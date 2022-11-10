@@ -1,2 +1,3 @@
 # Okoroafor Ozioma Software Engineer portfolio :woman_technologist: :collision:
-[Contribution guidelines for this project](docs/CONTRIBUTING.md)
+
+A clean, beautiful and responsive portfolio template for myself!
