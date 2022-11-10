@@ -29,7 +29,6 @@ const Contact = () => {
                     <input type={"text"} placeholder={"Your Full Name"} name={"user_name"} required/>
                     <input type={"text"} placeholder={"Your Email"} name={"user_email"} required/>
                     <textarea placeholder={"Your message"} rows={"7"} name={"message"} required/>
-                    {/*<ValidationError prefix={"Message"} field={"message"} errors={ state.errors }/>*/}
                     <button type={"submit"} disabled={state.submitting} className={"btn btn-primary"}>
                         Send Message
                     </button>
