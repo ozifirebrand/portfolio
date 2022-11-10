@@ -6,7 +6,9 @@ import './contact.css';
 const Contact = () => {
     const [state, handleSubmit] = useForm("meqdvvnz");
     if (state.succeeded) {
-        return <p className={"success-message"}>I have received your message, thank you!</p>;
+        return <p className={"success-message"}>
+            I have received your message, thank you!
+        </p>;
     }
     return (
         <section id={"contact"}>
@@ -26,10 +28,14 @@ const Contact = () => {
                     </article>
                 </div>
                 <form onSubmit={ handleSubmit }>
-                    <input type={"text"} placeholder={"Your Full Name"} name={"user_name"} required/>
-                    <input type={"text"} placeholder={"Your Email"} name={"user_email"} required/>
-                    <textarea placeholder={"Your message"} rows={"7"} name={"message"} required/>
-                    <button type={"submit"} disabled={state.submitting} className={"btn btn-primary"}>
+                    <input type={"text"} placeholder={"Your Full Name"} name={"user_name"}
+                           required/>
+                    <input type={"text"} placeholder={"Your Email"} name={"user_email"}
+                           required/>
+                    <textarea placeholder={"Your message"} rows={"7"} name={"message"}
+                              required/>
+                    <button type={"submit"} disabled={state.submitting}
+                            className={"btn btn-primary"}>
                         Send Message
                     </button>
                 </form>
