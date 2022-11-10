@@ -51,7 +51,7 @@ git@2.17.1 or higher
 
 
 ### `Start's development server`
-#### Clone this repository $ git clone https://github.com/saadpasta/developerFolio.git
+#### Clone this repository #git clone https://github.com/ozifirebrand/portfolio.git
 
 <span class="pl-c"><span class="pl-c">#</span> Go into the repository</span>
 $ <span class="pl-c1">cd</span> developerFolio
