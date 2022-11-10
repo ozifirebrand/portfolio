@@ -37,3 +37,5 @@ To view the Live example click <a href="https://ozifirebrand.github.io/portfolio
 
 # Project Walk flow  🚀
 #### These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+#### You'll need <a href="https://github.com/">Git</a> and <a href="https://nodejs.org/en/">Node.js</a> (which comes with npm) installed on your computer.
