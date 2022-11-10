@@ -49,8 +49,8 @@ git@2.17.1 or higher
 
 # How to use the project 🔧
 
-#### Clone this repository
-#### Go into the repository
-#### Install dependencies
-#### Start's development server
+####- ` Clone this repository`
+####- `Go into the repository`
+####- ` Install dependencies`
+####- ` Start's development server`
 
