@@ -40,7 +40,7 @@ These instructions will get you a copy of the project up and running on your loc
 You'll need <a href="https://github.com/">Git</a> and <a href="https://nodejs.org/en/">Node.js</a> (which comes with npm) installed on your computer.
 
 `
-node@v10.16.0 or higher
-npm@6.9.0 or higher
-git@2.17.1 or higher
+node@v10.16.0 or higher<br/>
+npm@6.9.0 or higher<br/>
+git@2.17.1 or higher<br/>
 `
