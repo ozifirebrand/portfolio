@@ -20,7 +20,7 @@
 :zap: `topbar`
 
 
-# Sections
+# Sections 😇
 
 ✔️ Summary about me<br/>
 ✔️ Skills<br/>
@@ -54,3 +54,5 @@ git@2.17.1 or higher
 - ` Install dependencies`
 - ` Start's development server`
 
+
+# Deployment🌟
