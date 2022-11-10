@@ -47,10 +47,10 @@ const Portfolio = () => {
             <h2>Portfolio</h2>
 
             <div className={"container portfolio__container"}>
-                {soloProjects.map((project) => (
+                { soloProjects.map((project) => (
                     <article className={"portfolio__item"} key={project.id}>
                         <div className={"portfolio__item-image"}>
-                            <img src={project.img} alt={project.title} />
+                            <img src={project.img } alt={project.title} />
                         </div>
                         <div className={"portfolio__item-content"}>
                             <h3>{project.title}</h3>
