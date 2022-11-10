@@ -76,4 +76,7 @@ When you are done with the setup, you should host your website online. We highly
  {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
- },
+ }, 
+ ````
+
+At this point, the React app's package.json file includes deployment scripts.
