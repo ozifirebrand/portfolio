@@ -70,3 +70,10 @@ When you are done with the setup, you should host your website online. We highly
  },
 ```
 - At this point, the React app's `package.json` file includes a property named `homepage`.
+
+### 3. Add a `predeploy` property and a `deploy` property to the `scripts` object:
+- ```javascript
+{
++    "predeploy": "npm run build",
++   "deploy": "gh-pages -d build",
+ },
