@@ -32,3 +32,5 @@
 ✔️ Twitter Timeline<br/>
 ✔️ Github Profile<br/>
 ✔️ LinkedLn profile<br/>
+
+To view the Live example click <a href="https://ozifirebrand.github.io/portfolio/#home">here</a>
