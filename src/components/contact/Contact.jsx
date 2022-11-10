@@ -6,7 +6,7 @@ import './contact.css';
 const Contact = () => {
     const [state, handleSubmit] = useForm("meqdvvnz");
     if (state.succeeded) {
-        return <p className={"response"}>I have received your message, thank you!</p>;
+        return <p className={"success-message"}>I have received your message, thank you!</p>;
     }
     return (
         <section id={"contact"}>
