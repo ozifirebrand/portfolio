@@ -22,8 +22,8 @@
 
 # Sections
 
-✔️Summary about me(<br/>)
-✔️ Skills(<br/>)
+✔️Summary about me <br/>
+✔️ Skills<br/>
 Summary about me(<br/>)
 Summary about me(<br/>)
 Summary about me
