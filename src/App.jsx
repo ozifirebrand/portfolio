@@ -8,7 +8,6 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Topbar from "./components/topbar/Topbar";
 import Testimonials from "./components/testimonials/Testimonials";
 
-
 const App = () => {
   return (
       <>
