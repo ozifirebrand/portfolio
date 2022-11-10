@@ -56,7 +56,7 @@ git@2.17.1 or higher
 
 
 # Deployment🌟
-When you are done with the setup, you should host your website online. We highly recommend to read through the <a href=["https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f)">Deploying on Github Pages docs</a> for React.
+When you are done with the setup, you should host your website online. We highly recommend to read through the Deploying on Github Pages docs for React.
 
 ### 1. Install the `gh-pages` npm package
 - `npm install gh-pages --save-dev`
