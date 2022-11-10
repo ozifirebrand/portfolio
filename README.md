@@ -69,3 +69,4 @@ When you are done with the setup, you should host your website online. We highly
     homepage": "https://ozifirebrand.github.io/portfolio/
  },
 ```
+- At this point, the React app's `package.json` file includes a property named `homepage`.
