@@ -70,6 +70,10 @@ input, textarea {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
+
+    .success-message{
+        font-size: 13px;
+    }
 }
 
 @media screen and (max-width: 600px){
