@@ -4,7 +4,6 @@ import { Pagination } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -37,26 +36,26 @@ const Testimonials = () => {
         },
     ];
     return (
-        <section id="testmonials">
+        <section id={"testmonials"}>
             <h5>Feedback from my peers</h5>
             <h2>Testimonials</h2>
             <Swiper
-                className="container testimonials__container"
-                modules={[Pagination]}
-                spaceBetween={40}
-                slidesPerView={1}
+                className={"container testimonials__container"}
+                modules={[ Pagination ]}
+                spaceBetween={ 40 }
+                slidesPerView={ 1 }
                 pagination={{ clickable: true }}
             >
                 {testimonials.map((test) => (
-                    <SwiperSlide className="testimonial" key={test.id}>
-                        <div className="client__avatar">
-                            <a href={test.link}>
+                    <SwiperSlide className={"testimonial"} key={ test.id }>
+                        <div className={"client__avatar"}>
+                            <a href={ test.link }>
                                 <BsLinkedin />
                             </a>
                         </div>
-                        <h5 className='client__name'>{test.name}</h5>
+                        <h5 className={'client__name'}>{ test.name }</h5>
                         <p>{ test.role }</p>
-                        <small className="client__review">{test.test}</small>
+                        <small className={"client__review"}>{ test.test }</small>
                     </SwiperSlide>
                 ))}
             </Swiper>
