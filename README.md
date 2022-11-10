@@ -49,19 +49,8 @@ git@2.17.1 or higher
 
 # How to use the project 🔧
 
-
-### `Start's development server`
-#### Clone this repository #git clone https://github.com/ozifirebrand/portfolio.git
-# <!--- This is an HTML comment in Markdown -->
-
-
-
-<span class="pl-c"><span class="pl-c">#</span> Go into the repository</span>
-$ <span class="pl-c1">cd</span> developerFolio
-
-<span class="pl-c"><span class="pl-c">#</span> Install dependencies</span>
-$ npm install
-
-<span class="pl-c"><span class="pl-c">#</span>Start's development server</span>
-$ npm start</pre></div>
+#### Clone this repository
+#### Go into the repository
+#### Install dependencies
+#### Start's development server
 
