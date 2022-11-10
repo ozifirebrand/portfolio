@@ -22,18 +22,13 @@
 
 # Sections
 
-✔️Summary about me <br/>
+✔️ Summary about me<br/>
 ✔️ Skills<br/>
-Summary about me(<br/>)
-Summary about me(<br/>)
-Summary about me
-⋅⋅⋅ Summary about me
-⋅⋅⋅ Summary about me
-⋅⋅⋅ Summary about me
-⋅⋅⋅ Summary about me
-⋅⋅⋅ Summary about me
-⋅⋅⋅ Summary about me
-⋅⋅⋅ Summary about me
-⋅⋅⋅ Summary about me
-⋅⋅⋅ Summary about me
-⋅⋅⋅ Summary about me
+✔️ Resume<br/>
+✔️ work experience<br/>
+✔️ Big Projects<br/>
+✔️ Achievements And Certifications 🏆<br/>
+✔️  Contact me<br/>
+✔️ Twitter Timeline<br/>
+✔️ Github Profile<br/>
+✔️ LinkedLn profile<br/>
