@@ -34,3 +34,6 @@
 ✔️ LinkedLn profile<br/>
 
 To view the Live example click <a href="https://ozifirebrand.github.io/portfolio/#home">here</a>
+
+# Project Walk flow  🚀
+#### These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
