@@ -61,3 +61,4 @@ When you are done with the setup, you should host your website online. We highly
 ### 1. Install the `gh-pages` npm package
 - <div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="npm install gh-pages --save-dev"><pre class="notranslate"><code>npm install gh-pages --save-dev
 </code></pre></div>
+At this point, the gh-pages npm package is installed on your computer and the React app's dependence upon it is documented in the React app's `package.json` file.
