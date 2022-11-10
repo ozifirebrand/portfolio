@@ -1,31 +1,13 @@
-import React, { useRef, useState } from 'react';
-import emailjs from '@emailjs/browser';
+import React from 'react';
 import { MdOutlineEmail } from 'react-icons/md';
+import { useForm } from '@formspree/react';
 import './contact.css';
 
 const Contact = () => {
-    const [message, setMessage] = useState(false);
-    const formRef = useRef();
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        setMessage(true);
-        emailjs
-            .sendForm(
-                'service_k2qawqh',
-                'template_c6rkpn6',
-                formRef.current,
-                'X7K7ebhIeOy3YwHki'
-            )
-            .then(
-                (result) => {
-                    console.log(result.text);
-                },
-                (error) => {
-                    console.log(error.text);
-                }
-            );
-        e.target.reset();
-    };
+    const [state, handleSubmit] = useForm("meqdvvnz");
+    if (state.succeeded) {
+        return <p className={"response"}>I have received your message, thank you!</p>;
+    }
     return (
         <section id={"contact"}>
             <h5>Get In Touch</h5>
@@ -43,29 +25,15 @@ const Contact = () => {
                         <a href={"mailto:oziomaokoroafor@gmail.com"}>Send a message</a>
                     </article>
                 </div>
-                <form ref={ formRef } onSubmit={ handleSubmit }>
-                    <input
-                        type={"text"}
-                        placeholder={"Your Full Name"}
-                        name={"user_name"}
-                        required
-                    />
-                    <input
-                        type={"text"}
-                        placeholder={"Your Email"}
-                        name={"user_email"}
-                        required
-                    />
-                    <textarea
-                        placeholder={"Your message"}
-                        rows={"7"}
-                        name={"message"}
-                        required
-                    ></textarea>
-                    <button type={"submit"} className={"btn btn-primary"}>
+                <form onSubmit={ handleSubmit }>
+                    <input type={"text"} placeholder={"Your Full Name"} name={"user_name"} required/>
+                    <input type={"text"} placeholder={"Your Email"} name={"user_email"} required/>
+                    {/*<ValidationError prefix={"Email"} field={"email"} errors={ state.errors }/>*/}
+                    <textarea placeholder={"Your message"} rows={"7"} name={"message"} required/>
+                    {/*<ValidationError prefix={"Message"} field={"message"} errors={ state.errors }/>*/}
+                    <button type={"submit"} disabled={state.submitting} className={"btn btn-primary"}>
                         Send Message
                     </button>
-                    {message && <span>Thanks, I'll reply ASAP :)</span>}
                 </form>
             </div>
         </section>
