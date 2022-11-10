@@ -60,3 +60,13 @@ When you are done with the setup, you should host your website online. We highly
 
 ### 1. Install the `gh-pages` npm package
 - `npm install gh-pages --save-dev`
+
+### 2. Add homepage to settings
+- Open the `package.json` file in your ide.
+- `Add a homepage property in this format*: https://{username}.github.io/{repo-name}
+- {
+    "name": "my-app",
+    "version": "0.1.0",
+    "homepage": "https://gitname.github.io/react-gh-pages",
+    "private": true,
+  }
