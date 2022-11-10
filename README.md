@@ -8,7 +8,7 @@
 #### You can clone the repository to get your `personal portfolio` . Feel free to use it as-is or customize it as much as you want.
 
 
-# SECTIONS
+# Components
 
 :zap: `contact`
 :zap: `experience`
