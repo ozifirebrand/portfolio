@@ -89,4 +89,4 @@ That will cause the `predeploy` and `deploy` scripts defined in `package.json` t
 Under the hood, the predeploy script will build a distributable version of the React app and store it in a folder named build. Then, the deploy script will push the contents of that folder to a new commit on the gh-pages branch of the GitHub repository, creating that branch if it doesn't already exist.
 
 
-# That's it! The React app has been deployed to GitHub Pages! 🚀. At this point, the React app is accessible to anyone who visits the homepage URL you specified in Step 4. For example, the React app I deployed is accessible at https://gitname.github.io/react-gh-pages.
+## That's it! The React app has been deployed to GitHub Pages! 🚀. At this point, the React app is accessible to anyone who visits the homepage URL.
