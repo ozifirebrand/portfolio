@@ -20,7 +20,7 @@ const Intro = () => {
                         <article className={"about__card"}>
                             <FaAward className={"about__icon"} />
                             <h5>Experience</h5>
-                            <small>2 year</small>
+                            <small>1+ years</small>
                         </article>
                         <article className={"about__card"}>
                             <VscFolderLibrary className={"about__icon"} />
@@ -29,7 +29,7 @@ const Intro = () => {
                         </article>
                     </div>
                     <p>
-                        Focused and quick-learning Software Engineer with 2 years of experience
+                        Focused and quick-learning Software Engineer with 1+ years of experience
                         in computer science, programming, and micro-services for various projects and
                         clients.
                     </p>
