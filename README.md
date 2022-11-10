@@ -65,5 +65,5 @@ When you are done with the setup, you should host your website online. We highly
 - Open the `package.json` file in your ide.
 - Add a homepage property in this format*: https://{username}.github.io/{repo-name}
 ```javascript
-{ "some": "json" }
+"homepage": "https://ozifirebrand.github.io/portfolio/",
 ```
