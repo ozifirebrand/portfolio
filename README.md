@@ -18,3 +18,22 @@
 :zap: `portfolio`
 :zap: `testimonial`
 :zap: `topbar`
+
+
+# Sections
+
+⋅⋅⋅ Summary about me
+⋅⋅⋅ Skills
+⋅⋅⋅ Summary about me
+⋅⋅⋅ Summary about me
+⋅⋅⋅ Summary about me
+⋅⋅⋅ Summary about me
+⋅⋅⋅ Summary about me
+⋅⋅⋅ Summary about me
+⋅⋅⋅ Summary about me
+⋅⋅⋅ Summary about me
+⋅⋅⋅ Summary about me
+⋅⋅⋅ Summary about me
+⋅⋅⋅ Summary about me
+⋅⋅⋅ Summary about me
+⋅⋅⋅ Summary about me
