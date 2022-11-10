@@ -50,8 +50,8 @@ git@2.17.1 or higher
 # How to use the project 🔧
 
 
-# `Start's development server`
-# Clone this repository</span>
+###### `Start's development server`
+###### Clone this repository</span>
 $ git clone https://github.com/saadpasta/developerFolio.git
 
 <span class="pl-c"><span class="pl-c">#</span> Go into the repository</span>
