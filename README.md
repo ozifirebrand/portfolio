@@ -66,6 +66,6 @@ When you are done with the setup, you should host your website online. We highly
 - Add a homepage property in this format*: https://{username}.github.io/{repo-name}
 ```javascript
 "{
-homepage": "https://ozifirebrand.github.io/portfolio/
-}",
+    homepage": "https://ozifirebrand.github.io/portfolio/
+ }",
 ```
